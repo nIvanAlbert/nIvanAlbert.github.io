@@ -115,7 +115,7 @@ section{
     font-size: 80px;
 }
 .tech-icons{
-    padding: 8rem;
+    padding: 5rem;
     width: 50%;
     height: 107%;
     position: relative;
@@ -127,9 +127,8 @@ section{
     box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.493);
 }
 .tech-icon{
-    height: 8rem;
-    width: 5%;
-    width: auto;
+    max-width: 20%;
+
     margin-left: 40px;
     flex-direction: column;
 
