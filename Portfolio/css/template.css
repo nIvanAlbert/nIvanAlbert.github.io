@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+header{
+    height: 350px;
+    width: 100%;
+    border-bottom: solid;
+    border-color: #007bff;
+}
+.navbar{
+    background-color: #007bff;
+    height: 50px;
+    width: 250px;
+    display: inline-flex;
+    float: right;
+}
+.logo{
+    display: inline-block;
+}
+.logo-words{
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: left;
+}
+ul{
+    padding: 10px;
+    display: flex;
+    float: right;
+}
+.nav-btn{
+    color: white;
+}
+li{
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+.head-text{
+    padding: 30px;
+    letter-spacing: 2px;
+}
+h3{
+    font-size: 2.20rem;
+}
+h2{
+    font-size: 5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#007bff ;
+}
+.portrait{
+    padding: 10px;
+    width: 190px;
+    height: 220px;
+    /* background-color:#007bff; */
+    background-image: linear-gradient(90deg,#f1f1f1,#267dff);
+    border-radius: 5px;
+    position: absolute;
+    top: 15rem;
+    right: 2rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.493);
+}
+#ivan-img{
+    width: 170px;
+    height: 200px;
+    margin: auto;
+    border-radius: 5px;
+}
+section{
+    height: 500px;
+    padding:40px; 
+}
+#about-me{
+    background-image: linear-gradient(140deg,#267dff,#392cf8);
+}
+.content{
+    width: 45rem;
+    height: 50rem;
+    
+    margin: auto;
+    /* background-color: brown; */
+    color: white;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.content-title{
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.tech-box{
+    height: 25rem;
+    background-image: linear-gradient(280deg,#4690ff,#1c0cf8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(117, 115, 138);
+    
+}
+.tech-title-box{
+    height: 100%;
+    width: 50%;
+    display:inline-flex;
+}
+.tech-title{
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-size: 80px;
+}
+.tech-icons{
+    padding: 4rem;
+    width: 50%;
+    height: 107%;
+    position: relative;
+    background-image: linear-gradient(140deg,#ffffff,#dadadd);
+    float: right;
+    top:-9px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.493);
+}
+.tech-icon{
+    height: 8rem;
+    width: 5%;
+    width: auto;
+    margin-left: 40px;
+    flex-direction: column;
+
+}
