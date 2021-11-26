@@ -64,14 +64,16 @@ section{
     background-image: linear-gradient(140deg,#ffffff,#dadadd);
     float: right;
     top:-9px;
+    overflow: auto;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.493);
 }
 .tech-icon{
-    max-width: 20%;
-
-    margin-left: 40px;
+    max-width: 5rem;
+    margin-left: 4rem;
     flex-direction: column;
-
+}
+.row3{
+    
 }
